@@ -1,3 +1,4 @@
+<project>
 <build>
 <finalName>pace</finalName>
 <plugins>
@@ -14,7 +15,7 @@
 <configuration>
 <artifactItems>
 <artifactItem>
-<groupId>com.github.anshul</groupId>
+<groupId>com.github.jsimone</groupId>
 <artifactId>webapp-runner</artifactId>
 <version>8.0.30.2</version>
 <destFileName>webapp-runner.jar</destFileName>
@@ -30,14 +31,4 @@
 	<version>2.3</version>
 	<packaging>war</packaging>
 </build> 
-
-  <build>
-
-    <plugins>
-      <plugin>
-        <groupId>com.heroku.sdk</groupId>
-        <artifactId>heroku-maven-plugin</artifactId>
-        <version>1.2.1</version>
-      </plugin>
-    </plugins>
-  </build>
+</project>

@@ -30,7 +30,7 @@ public class SendSms {
 				).create();
 		
 		Message message4 = Message.creator(
-				new PhoneNumber("+15512295671"), 
+				new PhoneNumber("+15512214994"), 
 				new PhoneNumber("+16283003802"), 
 				"A restorant Application"
 				).create();

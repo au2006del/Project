@@ -12,7 +12,7 @@ public class ReceiveSms {
 		post("/receive-sms", (req, res) -> {
 			
 			Message sms = new Message.Builder()
-					.body(new Body("test sms"))
+					.body(new Body("Today's Homework is Complete Twilio Project"))
 					.build();
 			
 			MessagingResponse twiml = new MessagingResponse.Builder()

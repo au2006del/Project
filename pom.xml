@@ -25,7 +25,9 @@
 </executions>
 </plugin>
 </plugins>
-	<groupId>test234</groupId>
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>test2345</groupId>
 	<artifactId>pace</artifactId>
 	<version>2.3</version>
 	<packaging>war</packaging>

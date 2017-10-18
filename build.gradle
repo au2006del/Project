@@ -25,8 +25,8 @@ dependencies {
 	
 	compile 'org.slf4j:slf4j:slf4j-simple:1.6.+'
 	compile 'com.sparkjava:spark-core:2.5.+'
-	compile "org.slf4j:slf4j-api:1.6.1"
-	compile "org.slf4j:slf4j-simple:1.6.1"
+	compile "org.slf4j:slf4j-api:1.8.1"
+	compile "org.slf4j:slf4j-simple:1.8.1"
 	compile 'com.twilio.sdk:twilio:7.+'
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'

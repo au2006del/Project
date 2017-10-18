@@ -1,0 +1,43 @@
+<build>
+<finalName>pace</finalName>
+<plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-dependency-plugin</artifactId>
+<version>2.3</version>
+<executions>
+<execution>
+<phase>package</phase>
+<goals>
+<goal>copy</goal>
+</goals>
+<configuration>
+<artifactItems>
+<artifactItem>
+<groupId>com.github.anshul</groupId>
+<artifactId>webapp-runner</artifactId>
+<version>8.0.30.2</version>
+<destFileName>webapp-runner.jar</destFileName>
+</artifactItem>
+</artifactItems>
+</configuration>
+</execution>
+</executions>
+</plugin>
+</plugins>
+	<groupId>test234</groupId>
+	<artifactId>pace</artifactId>
+	<version>2.3</version>
+	<packaging>war</packaging>
+</build> 
+
+  <build>
+
+    <plugins>
+      <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>1.2.1</version>
+      </plugin>
+    </plugins>
+  </build>
